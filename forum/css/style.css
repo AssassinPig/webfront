@@ -1,0 +1,246 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+margin: 0;
+padding: 0;
+}
+
+.header {
+    background-color: #1F76BC;
+    /* position: absolute; */
+    width: 100%;
+    height: 64px;
+    border-bottom: 2px black solid;
+}
+
+.header_title {
+    /* margin-left: 200px; */
+    /* margin-top: 20px; */
+    position: relative;
+    float: left;
+    /* display: inline; */
+    width: 120px;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.search {
+    width: 320px;
+    position: relative;
+    /* float: right; */
+    /* margin-left: 400px; */
+    /* margin-top: 18px; */
+    /* overflow: hidden; */
+    /* top: 24px; */
+    display: inline-block;
+    /* margin: 1px 2px 3px 4px; */
+}
+
+.search_textfield {
+    /* width: inherit; */
+}
+
+input#search_textfield {
+    float: left;
+    border-color: blue;
+    width: 240px;
+    height: 28px;
+    font-size: 16px;
+}
+
+input#search_button {
+    background-color: blue;
+    border-color: blue;
+    height: 34px;
+    width: 72px;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* font-weight: 200; */
+}
+
+.account {
+    float: right;
+    position: relative;
+    /* top: 13px; */
+    margin-top: 40px;
+    /* display: inline; */
+    /* margin-bottom: 0px; */
+}
+
+.account_login {
+    float: left;
+}
+
+
+h3#form_title {
+    color: white;
+    font-size: 24px;
+    margin: 20px 0;
+    position: relative;
+    /* height: inherit; */
+}
+body {
+    font-family: "Times New Roman",Georgia,Serif;
+    display: block;
+    /* margin: 0; */
+}
+.main {
+    /* height: 960px; */
+    width: 100%;
+    /* background-color: #1F76BC; */
+    /* float: left; */
+}
+
+.left {
+    width: 300px;
+    height: inherit;
+    float: left;
+}
+
+.right {
+    width: 300px;  height: inherit;  float: left;
+}
+
+.middle {
+    background-color: #F0F0F0;
+    height: inherit;
+    width: 900px;
+    /* float: left; */
+    margin: 40px auto;
+    /* top: 40px; */
+    position: relative;
+    max-height: 800px;
+}
+
+.footer {
+    background-color: #DDD;
+    height: 120px;
+    width: 100%;
+    float: left;
+    /* margin-top: 30px; */
+}
+
+.middle_path {
+    /* height: 36px; */
+    /* margin-left: 20px; */
+    font-size: 24px;
+    /* margin-top: 12px; */
+    /* height: 37px; */
+}
+
+.midle_content_elem {
+    height: 80px;
+    /* border: blue 1px solid; */
+    /* margin: 10px 10px 10px 10px; */
+    /* margin-right: 10px; */
+    padding: 10px 10px 10px 10px;
+    border-bottom: blue 1px solid;
+}
+
+.elem_icon {
+    height: 74px;
+    border: blue 1px solid;
+    width: 80px;
+    /* position: relative; */
+    /* top: 2px; */
+    float: left;
+    /* left: 2px; */
+    margin: 2px;
+}
+
+
+.elem_right_info {
+    margin-left: 100px;
+    /* float: right; */
+}
+
+.elem_review_count {
+    margin-right: 20px;
+    margin-top: -40px;
+    float: right;
+    color: blue;
+}
+
+.header_container {
+    margin: 0 auto;
+    width: 900px;
+    /* border-bottom: 1px black solid; */
+    height: inherit;
+}
+
+a.account_href {
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.topic_path {
+    margin-left: 16px;
+    /* margin-top: 20px; */
+    color: blue;
+}
+
+a.elem_topic {
+    font-size: 24px;
+    color: blue;
+}
+
+.elem_tag {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    color: #778087;
+}
+
+.elem_author {
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+.elem_title {
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.elem_time {
+    padding: 5px 5px 5px 5px;
+}
+
+a.elem_tag_link {
+    color: gray;
+}
+
+ul.page_list {
+    list-style: none;
+    float: right;
+}
+
+ul.page_list li {
+    float: left;
+    margin-left: 10px;
+}
+
+.middle_header {
+    border-bottom: 1px solid black;
+    padding: 10px 0px 10px 0px;
+    clear: left;
+}
+
+.topic_bar_body ul {
+    list-style: none;
+}
+
+.topic_bar_body ul li {
+    float: left;
+    padding: 10px;
+}
+
+.topic_bar_body ul li a {
+    color: white;
+    /* background-color: #1F76BC; */
+}
+
+.topic_bar {
+    border-bottom: 20px solid white;
+    height: 40px;
+}
