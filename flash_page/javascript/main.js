@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	$('.right_bar_list li div').each(function(i, elem){
 
+	$('.right_bar_list li div').each(function(i, elem){
 		elem.onclick = function(){
 			$(this).parent().siblings().children().css('top', '-11px');
 
@@ -17,4 +17,7 @@ $(document).ready(function(){
 		}
 	});
 	
+	$(window).onmousewheel = function() {
+		console.log('onscroll');
+	}
 });
