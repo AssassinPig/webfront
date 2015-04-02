@@ -19,9 +19,6 @@
     display: inline-block;
 }
 
-.search_textfield {
-}
-
 input#search_textfield {
     float: left;
     border-color: blue;
@@ -291,23 +288,9 @@ textarea#bio {
     border-left: solid 1px black;
 }
 
-.middle_content {
-    /* min-height: 240px; */
-}
-
 .topic_left_content {
-    /* border-right: solid 1px black; */
     padding: 20px;
     width: 96px;
-    /* min-height: 200px; */
-    /* border-bottom: solid 1px black; */
-}
-
-.topic_middle_content {
-    /* min-height: 200px; */
-    /* border-bottom: solid 1px blue; */
-    /* padding-top: 10px; */
-    /* margin-top: 10px; */
 }
 
 .topic_middle_content_footer {
@@ -317,7 +300,6 @@ textarea#bio {
 
 .topic_content {
     min-height: 200px;
-    /* position: relative; */
     padding: 10px 20px;
 }
 
