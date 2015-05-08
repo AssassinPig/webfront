@@ -35,3 +35,5 @@ a:hover, a:active { color:#c00; text-decoration:underline; }
 
 .display { display: block; }
 .hidden { display: none; }
+
+.shadow { box-shadow: 0 0 5px rgba(36,41,44,.48); }

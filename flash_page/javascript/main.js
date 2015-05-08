@@ -22,21 +22,45 @@ $(document).ready(function(){
                 scrolling = 0;
             });
         }
+
+        
     });
 
+    $(document).keydown( function(event){
+        if(scrolling)
+            return;
+
+        //up
+        if ( event.which == 38 || event.which == 33) {
+            event.preventDefault();
+            if(prev_page == 0) 
+                return;
+            $('.right_bar_list li div').eq(prev_page-1).click();
+        }
+
+        if ( event.which == 40 || event.which == 34) {
+            event.preventDefault();
+
+            if(prev_page == 3) 
+                return;
+            $('.right_bar_list li div').eq(prev_page+1).click();
+        }
+    });
 
     $(document).scroll(function(){
         if(scrolling)
             return;
 
-        var elem = $('#main_ul li').children(':first-child').eq(0);
-        var doc_scroll = $(document).scrollTop();
-        //console.log(doc_scroll/1000);
-        var next_page = doc_scroll/1000 + 0.5;
-        var page = parseInt(doc_scroll/1000);
+        var now_y = $('body').scrollTop();
+        var to_page = parseInt(now_y/1000 + 0.6);
+        //console.log(to_page);
 
-        $('.right_bar_list li div').css('top', '-11px');
-        $('.right_bar_list li div').eq(page).css('top', '0px');
+        if(to_page<4) {
+            $('.right_bar_list li div').eq(to_page).click();    
+        }
     });
+
+
+
 
 });
